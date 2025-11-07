@@ -1,0 +1,19 @@
+{
+  "name": "polyswarms-client",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "create": "ts-node --esm scripts/createMarket.ts",
+    "bet": "ts-node --esm scripts/placeBet.ts",
+    "resolve": "ts-node --esm scripts/resolve.ts",
+    "claim": "ts-node --esm scripts/claim.ts"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@solana/web3.js": "^1.95.4",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
